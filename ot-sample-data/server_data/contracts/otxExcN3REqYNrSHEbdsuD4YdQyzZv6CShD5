@@ -1,0 +1,253 @@
+-----BEGIN SIGNED CONTRACT-----
+Hash: HASH256
+
+<notaryProviderContract version="2.0">
+
+<entity shortname="Transactions.com"
+ longname="Transactions.com, LLC"
+ email="serverfarm@cloudcomputing.com"
+ serverURL="https://transactions.com/vers/1/"/>
+
+<notaryServer hostname="localhost"
+ port="7085"
+ URL="https://transactions.com/vers/1/"/>
+
+<!-- CONDITIONS -->
+
+<condition name="audit">
+Transactions.com operates open-source OpenTransactions software, and
+code audits are randomly performed by CodeNotary.com
+Our insurance company is:  GeicoCurrency.com
+</condition>
+
+<condition name="backing">
+  Transactions.com does not issue any currencies or digital assets,
+  and does not back any of the same. You are solely responsible for
+  whom you choose to trade with. 
+</condition>
+
+<condition name="liability">
+  Issuers are solely liable to perform according to
+  the conditions specified in their asset contracts.
+  Transactions.com is liable to keep transactions secure and clean.
+</condition>
+
+<condition name="mint">
+  Float - the total quantity of any digital asset outstanding -
+  is created by the issuer from his own mint, and signed by his private key.
+  
+  Disbursements from the Mint account are to be made on receipt of
+  duly signed and public authorization from the Issuer.  All
+  disbursements from the Mint account are to be made to the single
+  Currency Comptroller account identified by the authorization.
+
+  From time to time, the Currency Comptroller may direct the
+  Currency Manager to return digital assets to the Mint
+  for the express purpose of reducing the float. Digital assets
+  so delivered are to be deposited into the Mint account,
+  thus reducing the float by that amount.
+</condition>
+
+<condition name="privacy">
+  The purchase, redemption and trading at Transactions.com normally
+  are done on the basis of strong privacy. We will never release any of
+  your information unless compelled by law.
+</condition>
+
+<condition name="rate">
+  Transaction credits may be purchased on our website, the fees for which
+  are posted there also. We make money solely from transaction processing,
+  that is, providing an electronic notary service for others, for a usage fee.
+</condition>
+
+<!-- NYMS -->
+
+<signer hasCredentials="true"
+ nymID="otxN4Vz3xQLiEcwtKeHi9rSWh2zgH6Xkjqjg"
+ altLocation="">
+
+<nymIDSource>
+eNplkcFymzAYhO88hV/AMxKUTHvooRKSsUBqJPELWzeMMjVBNrT1YMdPn9Q5do/f
+nna/9Wr9L4Rttmr1DKTe0lXF9g+Y1BZdaoupgSCagWgHQlqQvyxy/rNDVQOx9CMm
+koUCMl4CioNExhgQJAHniG5M2YycaSRmgAv1mBcK7e8dM50s41JjsfOFGg8FKVsm
+Yp/G7ueP+RyQK5Me3YRuPbXnozex/9NlYpGna+bTnHRcDDpON0j/ooYfN1UWhjZO
+b4dC/XZsWmCjaNK2PrWY4Jcxzi+noOnZXP1d2QrPi2nMl9Cixb2K+36MT91mdjr9
+dlNt6PpXlR+wsAkU7hh2ZFejW96j62JOKlf8OElwTxqwDJnHvZMVsHkOpwtpHH9u
+6desa8z00WWJBUMAOKXD47CLgZxtOXF6/Jj2Rmrjxgev9fQ9WX/qYKr4T8Y7E2KD
+Rg==
+</nymIDSource>
+
+<credentialIDs>
+eNqlksmuolAURef3K16cmhSCiJDoS2hECqSV7jJDuCJI56UR+Pp61UwqqVlNT3bW
+3slZh3qupLiPP0aEu7ypjyvy22YFPr7O36Xjqukng/aX7WRf8lPy7jWk5By+Bg9q
+yRQmfBavIlt9AnD4lb82A07QJ0BGWz4Tea4WHj5Mln34BK9PmucqY9M42rXzhJdq
+nS7BgnS98AUDuyTUU6vm7F3aEHdQ1zHBBZi70E7fV5iUNBdtylDmsjUkhSiNm6HN
+rmKcBZlily97nKeZwIbk2+bEiXoFno0n6iUt5o1xmh6ZrfJKnZ93OgXnJL46VcaP
+ZCUk2h6xqb7bdDSpFt3dlM8ZK2t+VwHYEuf9gKy1M9vaTkdb6AzWLaybBU0EZ5Sw
+Pdfx+ubWipNIUmsam4JoGng3SC94FJEJbnQqEmHUBZVYxIZGWTiAtJpMS76uG7OO
+QotMKRtbOVXrJSfm043S1ltGdzmySgvMgbQ0esZqw9JZvzv+6e0fDyqSURFwTMFQ
+qqmVd9Y8lW93er0ltVbGSPc75Wm2775VFG4ATIq6mF02myBQBU/nTS2U6L14yaKp
+N0OZIdSCcipcTBkaubvNBSHxghqmXRbuT5QmASc7HsGB+Ou14FDFXY+wiFGK6j6P
+S/DxRxQfM5c9M16a7Vk1vGlcJj0YHdaDPaP5L/fefWk1xmWeHlc9HtCK+El7ovkf
+KBE6vAMd+lqdZcFwdvAFQywMs+AKQa+q6fKF+r3jf7qJP+5/gh9xQ/6b
+</credentialIDs>
+
+<credentials>
+<credential
+ID="otxCYRARYR4SmGFBNR5YqYXrBuyBTBWtJJdz">
+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
+fv3/0/g/ZE3Yyg==
+</credential>
+
+<credential
+ID="otxVr6L76vLo3GJNUxvzxMWvR8UYt6KVqTfs">
+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
+cYf4pNU4jMLUYxfz+895chr7f03zX6c+Nko=
+</credential>
+
+</credentials>
+
+</signer>
+
+</notaryProviderContract>
+-----BEGIN CONTRACT SIGNATURE-----
+Version: Open Transactions 0.94.0-501-g0f0c006
+Comment: http://github.com/FellowTraveler/Open-Transactions/wiki
+Meta:    SNVC
+
+Kpq+hZ8Hsd8+qHTY9XCuhl/caBXBqR7wdOLYdAwV9SDb9ZfKvT3H5+BJYBYMgHLn
+bvPyfhFnxYqEZQyfC2ISXHKMwwOBjQcHcxiHXjpdSoWZXQrhtAnm2vSzJ/2uTe9s
+iTL2KZgoRdVI2mPdqjadT0XhHJ2eUbF861BjeXMyybg=
+-----END CONTRACT SIGNATURE-----

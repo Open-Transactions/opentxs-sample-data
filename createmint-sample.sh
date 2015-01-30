@@ -2,21 +2,17 @@
 
 #### Recreates mints for sample-data server assets.
 
-server_id="r1fUoHwJOWCuK3WBAAySjmKYqsG6G2TYIxdqY6YNuuG"
-server_user_id="voeqDVAJwDwROywFtg5mEyYpcu2dcPJRLFHYh7tyhqk"
-
-##### game tokens
-asset_id="7f8nlUn795x8931JParRnmKAyw8cegRyBMcFg9FccaF"
-createmint ${server_id} ${server_user_id} ${asset_id}
+server_id="otxExcN3REqYNrSHEbdsuD4YdQyzZv6CShD5"
+server_user_id="otxN4Vz3xQLiEcwtKeHi9rSWh2zgH6Xkjqjg"
 
 ##### US Dollars
-asset_id="EYGad9FjZWgGKeVbgh2FbA0Hf8oP0XlnRyYCsvSIYKL"
+asset_id="otxUzCCyxRBYZ5dQaqi5CrM2fikPxUcyxvfo"
 createmint ${server_id} ${server_user_id} ${asset_id}
 
 ##### silver grams
-asset_id="JY7kEFnm2c50CGNphdpgnlVo2hOZuLrBua5cFqWWR9Q"
+asset_id="otxUpr8fzZahXm75TgXaGMWXHNWEjENgZmTp"
 createmint ${server_id} ${server_user_id} ${asset_id}
 
 #### Bitcoins
-asset_id="XU1Gu6sjcLxg260FmRgrSvRz9L0OohXRSEhlkeSd9j2"
+asset_id="otxF1M3XBTuT1RiWwkFaX5Nj7STsPfK6hD26"
 createmint ${server_id} ${server_user_id} ${asset_id}
